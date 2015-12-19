@@ -1,0 +1,17 @@
+{
+    "name": "dirdiffer",
+    "description": "get all different files in two directory",
+    "author": {
+        "name": "freckleslad",
+        "email": "xiaoxuan_0809@163.com"
+    },
+    "version": "0.0.5",
+    "dependencies": {
+      "walkfiles": "*",
+      "md5": "*"
+    },
+    "main": "diff.js",
+    "bin": {
+        "dirdiffer": "cmd.js"
+    }
+}
